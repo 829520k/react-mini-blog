@@ -26,6 +26,7 @@ function PostList(props) {
                         post={post}
                         onClick={() => {
                             onClickItem(post);
+
                         }}
                     />
                 );
